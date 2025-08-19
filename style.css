@@ -1,0 +1,45 @@
+body {
+  text-align: left;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 40px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+body {
+  text-align: left;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 40px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+      color: #666;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+
