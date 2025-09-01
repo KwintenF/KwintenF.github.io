@@ -17,53 +17,35 @@ a {
 a:hover {
   text-decoration: underline;
 }
-body {
-  text-align: left;
-  font-family: 'Segoe UI', sans-serif;
-  margin: 40px;
-  background-color: #f9f9f9;
-}
-
-h1 {
-  color: #333;
-}
 
 p {
       color: #666;
 }
 
-a {
-  color: #007acc;
-  text-decoration: none;
-}
-
-    footer {
+footer {
       margin-top: 50px;
       font-size: 0.9em;
       color: #aaa;
     }
-
-.theorem-card {
-  background: #f9f9f9;
-  border-radius: 8px;
-  padding: 1rem;
-  margin: 1rem 0;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+.haiku {
+      display: flex;
+      justify-content: center; /* horizontal */
+      align-items: center;     /* vertical */
+      text-align: center;
+      font-size: 1.5em;
+      max-width: 80%;
+    }
+    
+.profile {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
 }
 
-.theorem-card h3 {
-  margin-top: 0;
-  font-size: 1.2rem;
-}
-
-.statement, .insight {
-  font-style: italic;
-}
-
-.tags span {
-  background: #e0e0e0;
-  border-radius: 4px;
-  padding: 0.2rem 0.5rem;
-  margin-right: 0.3rem;
-  font-size: 0.8rem;
-}
+.profile img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  }
