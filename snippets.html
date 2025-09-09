@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Snippets</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<h1>Snippets</h1>
+
+  <div class="snippet">
+    <h2>Definition</h2>
+    <p>A small piece of (hopefully interesting) information.</p>
+  </div>
+  
+  <div class="snippet">
+    <h2>Learning from history</h2>
+    <p>The extraordinary <a href="https://thehistoryofrome.typepad.com/the_history_of_rome/" target="_blank">The History of Rome</a> podcast by <a href="https://en.wikipedia.org/wiki/Mike_Duncan_(podcaster)" target="_blank">Mike Duncan</a> comically summarizes a popular strategy of Roman emperors as: "Declare victory and leave". The research version, which I have heard being attributed to <a href="https://en.wikipedia.org/wiki/James_Hartle" target="_blank">Jim Hartle</a>, is: "Do what you can and move on".</p> 
+  </div>
+ 
+    <div class="snippet">
+    <h2>Red-haired man</h2>
+    <p> <a href="https://www.ams.org/journals/tran/1945-058-00/S0002-9947-1945-0013131-6/S0002-9947-1945-0013131-6.pdf" target="_blank">The General Theory of Natural Equivalences</a> by <a href="https://en.wikipedia.org/wiki/Samuel_Eilenberg" target="_blank">Eilenberg</a> and <a href="https://en.wikipedia.org/wiki/Saunders_Mac_Lane" target="_blank">MacLane</a>  is surprisingly readable. Still, the most lasting contribution of the theory of categories to my life has been the preface of the book <a href="https://www.ams.org/books/surv/205/surv205-endmatter.pdf" target="_blank">Tensor Categories</a>, which introduced me to <a href="https://en.wikipedia.org/wiki/Daniil_Kharms" target="_blank">Daniil Kharms</a>' red-haired man.</p> 
+  </div>
+  
+    <div class="snippet">
+    <h2>Keep walking</h2>
+    <p>
+<figure>
+        <img src="assets/exponential_walk.png" alt=" " style="max-width: 100%; height: auto;"/>
+        <figcaption> </figcaption>
+   </figure>
+   </p>
+  </div>
+  
+  <div class="snippet">
+    <h2>Check, check, time check</h2>  
+<p>   With proposed solutions and code easier to come by than ever, more and more of my time is just spent checking proposed solutions. In truth, software library solutions already require some faith but at least there is the guarantee that many more users have employed those exact solutions. When given such black boxes, one fun data point on their underlying structure is given by their time-complexity. An example below are some checks related to sampling from various simple built-in distributions. </p> 
+<figure>
+        <img src="assets/distribution_sampling_benchmark.png" alt=" " style="max-width: 100%; height: auto;"/>
+        <figcaption> </figcaption>
+   </figure>
+<figure>
+        <img src="assets/beta_validation_plots.png" alt=" " style="max-width: 100%; height: auto;"/>
+        <figcaption> </figcaption>
+   </figure>
+       <h2>Inverse transform sampling the uniform distribution</h2>  
+       Wait what? The comparison is supposed to be trivial, giving an additional reference point to interpret some of the behavior.
+  </div>
+  
+  
+  <div class="snippet">
+    <h2>No apologia</h2>
+    <p> The best way to spoil a relationship with a model is premature optimization. This holds for other endeavors too. Optimization should only follow, in my opinion, if there is a need. Time is finite after all. Therefore, despite regularly considering other options, this webpage is a plain html document with my thoughts directly written into it! As a bonus, this prevents me from writing down equations which can be found elsewhere. No apologies here. </p> 
+  </div>
+  
+    <div class="snippet">
+    <h2>Negativity in quantum algorithms</h2>
+    <p> <a href="https://en.wikipedia.org/wiki/Eugene_Wigner" target="_blank">Wigner</a> in "<a href="https://journals.aps.org/pr/abstract/10.1103/PhysRev.40.749" target="_blank">On the Quantum Correction For Thermodynamic Equilibrium</a>" (in fact giving some credit also to <a href="https://en.wikipedia.org/wiki/Leo_Szilard" target="_blank">Szilard</a>) introduces a function associated to a quantum mechanical wavefunction that comes close to deserving the name of the associated `probability' on classical phase space. However, this quasi-probability can be negative. There are various generalizations of Wigner's construction, typically defining roughly a quasi-probability on coadjoint orbits of a Lie group (which naturally come with a symplectic structure) for a state of an associated unitary representations of that group (see <a href="https://en.wikipedia.org/wiki/Orbit_method" target="_blank">the method of coadjoint orbits</a>). What is important here is that there exist Wigner quasi-probabilities on compact phase spaces associated to finite dimensional quantum system, say a collection of qubits, and <a href="https://arxiv.org/pdf/1208.3660" target="_blank">the claim </a> is that negativity for an appropriately defined Wigner quasi-probability at certain stages of a quantum computation is a necessary condition to have a quantum advantage. </p>
+  </div>
+  
+   <div class="snippet">
+    <h2>Free as a fish</h2>
+  
+<figure>
+        <img src="assets/garibaldi.jpg" alt=" "/>
+        <figcaption> </figcaption>
+   </figure>
+  <p>  <a href="https://en.wikipedia.org/wiki/Garibaldi_(fish)" target="_blank">Garibaldi</a>,    the marine state fish of California. Represented here in a California bathroom bathroom tile.
+   </p>
+     </div>
+     
+   <div class="snippet">
+    <h2>Point out the error</h2>
+    <p>
+    <a href="https://en.wikipedia.org/wiki/Terence_Tao" target="_blank"> Terence Tao </a> writes many excellent blog posts. <a href="https://terrytao.wordpress.com/advice-on-writing-papers/on-local-and-global-errors-in-mathematical-papers-and-how-to-detect-them/" target="_blank"> This one </a> is about finding errors in proofs. Tao contrasts "local" and "global" errors. Global errors, usually more interesting and important, are hard or impossible to pinpoint in a specific location to say "the error occurs here". When such errors are found, it is often not by constructive methods; you show there is an error but you cannot say what it is. The clearest example is a counterexample. A counterexample shows the argument is wrong but it doesn't directly tell you what went wrong. My point in summarizing an already brief blogpost is the statement by Tao: "This can sometimes lead to an awkward stage in the verification process when a global error has been found, but the local error predicted by the global error has not yet been located." I wanted to make two points about this statement. First, I believe this is one of those things that generalizes well beyond mathematics with the crucial difference that in many other contexts the "smoking gun", or local error in Tao's statement, may never be seen. Also, the statement suggests I have too brashly contrasted global and local errors as separate things. An (essence of an) error pointed out by Tao, somewhat of this nature, that has caused me some grief personally is one where the apparently obvious A &rarr; B &rarr; and B &rarr; C implies A  &rarr; C  doesn't end up working because in reality there was an ambiguity in B such that instead A &rarr; B &rarr; and B' &rarr; C with a subtle difference between B and B'. While not always necessary or productive, sometimes it is crucial to be on exactly the same page.
+     </p>
+     </div>
+  
+    <div class="snippet">
+    <h2>Maybe the best</h2>
+   <p> I have work to do, so if you surprise me with n unsorted numbers and ask me to tell you the maximum, I may not have the time to do O(n) operations to find it. If you insist, I may randomly choose m=log(n) of these numbers and find the maximum of those instead. I have an m/n probability to be exactly right but, if I'm not lucky, how wrong could I be? If the numbers were sequential but got uniformly mixed up, we have ourselves a version of <a href="https://en.wikipedia.org/wiki/German_tank_problem" target="_blank">the German tank problem</a> and my maximum of the reduced subset will have a relative error of O(1/m) but I know how to do better. On the other, if there is a single maximum excessively towering above all other numbers I would do a lot worse. Maybe, before doing anything drastic, can you summarize what this is about and why it can't wait? </p>
+ </div>
+ 
+  
+    <div class="snippet">
+    <h2>Keep walking</h2>
+    <p>
+<figure>
+        <img src="assets/levy_flight.png" alt=" " style="max-width: 100%; height: auto;"/>
+        <figcaption> </figcaption>
+   </figure>
+   </p>
+  </div>
+ 
+   <div class="snippet">
+    <h2>A Frequentist or Bayesian swallow?</h2>
+    <p>
+    Talking about the <a href="https://en.wikipedia.org/wiki/German_tank_problem" target="_blank">the German tank problem</a>, it is one of those examples where the minimum-variance unbiased estimator can be rather different from the mean of the Bayesian posterior.
+<figure>
+        <img src="assets/bayesian_posteriors.png" alt=" " style="max-width: 100%; height: auto;"/>
+        <figcaption> </figcaption>
+   </figure>
+     </p>
+     </div>
+     
+  
+
+    <div class="snippet">
+    <h2>Quantum maybe the best</h2>
+        <p> I have work to do, so if you surprise me with n unsorted numbers and ask me to tell you the maximum, I may not have the time to do O(n) operations to find it. If you insist, I may fire up my quantum computer and handle it in O(n<sup>1/2</sup>) by <a href="https://en.wikipedia.org/wiki/Grover%27s_algorithm" target="_blank">Grover's algorithm</a>. That is, unless the supposed oracle function that is invoked in the traditional algorithm to determine if a number is a maximun spoils this scaling. The apparent reason for why this doesn't happen is by observing that one can apply Grover's algorithm to search for elements larger than an arbitrary initial element, involving a less unreasonable oracle. If there are t<sub>0</sub> such elements, the scaling is in fact O((n/t<sub>0</sub>)<sup>1/2</sup>). We can now repeat the search for all elements larger than the element found in the previous step. There are t<sub>1</sub> < t<sub>0</sub> such elements and so on. While still not obvious, the <a href="https://arxiv.org/pdf/quant-ph/9607014">claim</a> is that the maximum is expected to be found O(n<sup>1/2</sup>) to some order one probability.
+     </p>
+     </div>
+
+
+   <div class="snippet">
+    <h2>AIpologia</h2>
+    <p>
+    At times, I'm already worn out by 'creative' AI content. Nevertheless, I occasionally ask one of these otherwise very personable functions to compose me one of these snippets. I'm embarrassed to admit that I too cannot always resist to post them. I'm sorry. However, I will warn you in advance and try to explain why it didn't land in the dustbin of my history. 
+     </p>
+     </div>
+     
+    <div class="snippet">
+    <h2>Guest snippet: Claude Sonnet 4 </h2>
+    <h3>For its self-deprecation and appreciation of a painter admired by a person dear to me (I admire her too, to be sure).</h3>
+<p>Modern software has made us cowards. Every text editor, every drawing program, every digital workspace comes equipped with the merciful Ctrl+Z, promising that no decision need be final. Yet this safety net may be teaching us the wrong lessons about creation and commitment. <a href="https://en.wikipedia.org/wiki/Agnes_Martin" target="_blank">Agnes Martin</a>, the minimalist painter, worked exclusively in pencil and acrylic on canvas—no sketches, no preparatory studies. Each mark was deliberate because erasure meant starting over entirely. Her grids and lines carry the weight of irreversible choice, something our undo-enabled digital works rarely possess. There's a mathematical parallel in <a href="https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem" target="_blank">Arrow's impossibility theorem</a>: when we can costlessly reverse decisions, we may never truly commit to preferences at all. Perhaps the most honest creative work emerges not from infinite revisability, but from the knowledge that this stroke, this word, this choice will have to stand. The undo button, for all its convenience, may be teaching us to postpone the moment when we must mean what we make.</p>
+     </div>
+     
+    <div class="snippet">
+    <h2>Keep walking</h2>
+    <p>
+<figure>
+        <img src="assets/gamma_walk.png" alt=" " style="max-width: 100%; height: auto;"/>
+        <figcaption> </figcaption>
+   </figure>
+   </p>
+  </div>
+
+  <div class="snippet">
+    <h2>an identity crisis: p-adic numbers </h2>
+    <p>
+    Occasionally, I can't resist being pedantic: &#x221A;2 is not always 1.4142135623 ... . Real numbers are an analytic completion of rational numbers. That is, in the rational numbers, there are Cauchy sequences, for example the one implicitly defined by extending 1.4142135623 ... arbitrarily, which do not converge in the rational numbers. This prompts their extension from an analytical point of view. There are also polynomials, such as x<sup>2</sup>=2, with rational coefficients which have no solutions in the rational numbers, prompting their algebraic extensions. The difference between the former and the latter is that the former analytic extension additionally requires a notion of topology on the rational numbers while the latter algebraic extension does not. One way to induce a topology is from a distance. Usually, the Euclidean distance associated to "the" absolute value. The crisis occurs when one observes that there are other non-trivial absolute values on the rational numbers, which in particular must satisfy: positive-definiteness, multiplicative and a triangle inequality, inducing different topologies. Therefore, the real numbers are <strong>an</strong> analytic completion of rational numbers not <strong>the</strong>  analytic completion. The interesting culprit is the p-adic norm, which can be used to define the p-adic numbers. The non-uniqueness issue turns out to be readily resolved by adding the adjective "Archimedean", as the p-adic norm (as well-as the trivial absolute value) satisfy a stronger version of the triangle inequality known as the ultrametricity condition for the distance d(.,.): d(x,y) &leq; max(d(x,z),d(z,y)) and are in that sense "non-Archimedean". When I write &#x221A;2 I need not commit.  
+    </p> 
+  </div>
+  
+  <div class="snippet">
+    <h2>Hierarchy and ultras</h2>
+    <p>
+    One question raised by the <a href="https://en.wikipedia.org/wiki/P-adic_number"> p-adic </a> norm is: why or when should I care about <a href="https://en.wikipedia.org/wiki/Ultrametric_space">ultra-metricity </a>? Consider the 3-adic numbers, which are the completion of the rational numbers with respect to the 3-adic norm. This is essentially characterized by |3<sup>k</sup> q/p|<sub>3</sub> = 3<sup>-k</sup>  for p,q co-prime and not divisible by 3. Let's just see where this leads for |0|<sub>3</sub>, |1|<sub>3</sub>, |2|<sub>3</sub>, |3|<sub>3</sub>, ..., |3<sup>3</sup>+1|<sub>3</sub>. We find: 0, 1, 1, 1/3, 1, 1, 1/3, 1, 1, 1/9, 1, 1, 1/3, 1, 1, 1/3, 1, 1, 1/9, 1, 1, 1/3, 1, 1, 1/3, 1, 1, 1/27, 1. Usually, this is visually depicted in groupings of three: (0, 27, 54) are all 1/27 apart in 3-adic norm, as are (1, 28, 55), (2, 29, 56), (3, 30, 57), ..., (26, 53, 80). Let's denote these triples by their smallest entry: [0] = (0, 27, 54) etc. Then, at the next level,  ([0],[9],[18]), ([1],[10],[19]), ..., ([8],[17],[26])  are all 1/9 apart in 3-adic norm. Denoting these triples as [[0]] = ([0],[9],[18]) etc., we have again that ,  ([[0]],[[3]],[[6]]), ..., ([[2]],[[5]],[[8]]) are each groupings of 1/3 apart. You get the picture, see also visually below. The point is that the distance between x and z can be characterized by finding the smallest grouping, say (x,z), to which both numbers belong. If another number y is in a smaller group together with either x or z than the group with the other will certainly bound (x,z). Similarly if it is in a larger group altogether. Therefore, the intuition usually ascribed to the ultra-metricity property is its hierarchical nature.  
+    <figure>
+        <img src="assets/3adic_hierarchy.png" alt=" " style="max-width: 100%; height: auto;"/>
+        <figcaption> We don't repeat numbers at lower levels although they naturally fit into the groups diagonally outwards. </figcaption>
+   </figure>  
+    </p> 
+  </div>
+  
+  <div class="snippet">
+    <h2>an existential crisis: quintic</h2>
+    <p>
+    When confronted with a problem, it usually pays to ask what you actually need from the solution and what is plausibly possible. I certainly have lost my fair share of time looking for nice analytical forms in vain. I am in good company. By informal admission, I know this is true of many colleagues and, apparently, it is true for all those mathematicians who, over the centuries, have searched fruitlessly for a solution "in radicals" of a general quintic equation. They stand a unique warning for those of us who have not learned our lesson as the <a href="https://en.wikipedia.org/wiki/Abel%E2%80%93Ruffini_theorem" target="_blank">Abel-Ruffini theorem</a> shows that such a solution is not possible. Understanding why it is not possible is an important strand of mathematical history that has come to be most strongly associated with <a href="https://en.wikipedia.org/wiki/%C3%89variste_Galois" target="_blank">Galois</a>, as the Abel-Ruffini theorem is usually the elementary problem that initially motivates Galois theory in modern introductions to that subject.
+    </p> 
+  </div>
+  
+  <div class="snippet">
+    <h2>Doing it again</h2>
+    <p>
+    "<a href="https://en.wikipedia.org/wiki/Simpsons_Already_Did_It="_blank">Simpsons already did it</a>" is the cartoon version of the idea that all good ideas have already been had and have already been executed. Clearly this is not actually true but, I think, for most of what we can individually achieve, we may as well act as if it is and value what we are doing regardless if it has already been done. I could misquote a probably misattributed quote of <a href=https://en.wikipedia.org/wiki/%C3%89lie_Cartan target="_blank"> E. Cartan </a> here ("we can do something new only after thoroughly doing what has already been done") but the point is, whatever the Simpson already did, I'm sure the South Park episodes would have been appreciated.  
+    </p> 
+  </div>
+
+    <div class="snippet">
+    <h2>Keep walking</h2>
+    <p>
+<figure>
+        <img src="assets/poisson_walk.png" alt=" " style="max-width: 100%; height: auto;"/>
+        <figcaption> </figcaption>
+   </figure>
+   </p>
+  </div>
+
+
+  <div class="snippet">
+    <h2>A-test</h2>
+    <p>
+    It has taken me longer than I care to admit to appreciate that <strong>a</strong> chi-square test is any statistical hypothesis test in which the test statistic is chi-squared distributed under the null hypothesis. I will put this down to encountering it first and mainly in specific applications. Once this clicks, the main fact to remember is that a sum of squares of k independent standard normal random variables is chi-squared (with k degrees of freedom) distributed. Similarly for a t-test where the Student t-distribution governs the ratio of a standard normal variable and the square root of a chi-squared distributed variable divided by its degrees of freedom. Similarly for an F-test where the F-distribution governs the ratio of two chi-squared distributed variables divided by their respect degrees of freedom. Similarly ...
+    </p> 
+  </div>
+
+</body>
+</html>
