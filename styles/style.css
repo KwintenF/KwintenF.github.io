@@ -30,8 +30,8 @@ footer {
     
 .haiku {
       display: flex;
-      justify-content: center; /* horizontal */
-      align-items: center;     /* vertical */
+      justify-content: center;
+      align-items: center;     
       text-align: center;
       font-size: 1.5em;
       max-width: 80%;
@@ -39,8 +39,8 @@ footer {
     
 .profile {
   display: flex;
-  justify-content: center; /* horizontal */
-  align-items: center;     /* vertical */
+  justify-content: center;
+  align-items: center;   
 }
 
 .profile img {
@@ -49,3 +49,28 @@ footer {
   border-radius: 50%;
   object-fit: cover;
   }
+  
+      .snippet {
+      margin-bottom: 30px;
+      padding: 20px;
+      border-left: 4px solid #4a90e2;
+      background-color: #f5faff;
+      border-radius: 8px;
+    }
+
+    .snippet h2 {
+      margin-top: 0;
+      font-size: 1.4em;
+      color: #2c3e50;
+    }
+
+    .snippet p {
+      margin: 0.5em 0 0;
+      font-size: 1em;
+      line-height: 1.6;
+    }
+    
+    .snippet img {
+      max-width: 50%;
+      height: auto;
+    }
